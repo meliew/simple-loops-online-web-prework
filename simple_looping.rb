@@ -1,5 +1,5 @@
 # REMEMBER: print your output to the terminal using 'puts'
-counter = 0
+
 
 def loop_iterator(number_of_times)
   number_of_times = 0

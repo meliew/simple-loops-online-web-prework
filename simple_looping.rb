@@ -1,7 +1,7 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-number_of_times.times do
+loop do
   puts "Welcome to Flatiron School's Web Development Course!"
     break
   end
@@ -24,9 +24,14 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
+  number_of_times = 0
+  while number_of_times < 20
+    puts "Welcome to Flatiron School's Web Development Course!"
+    number_of_times += 1
+  end
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
+#  phrase = "Welcome to Flatiron School's Web Development Course!"
 
 end
 

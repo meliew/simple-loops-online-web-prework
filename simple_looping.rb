@@ -18,8 +18,7 @@ end
 
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times = 7
-  number_of_times.times
+  7.times
   puts phrase
 
   # code your solution here using the "times" keyword

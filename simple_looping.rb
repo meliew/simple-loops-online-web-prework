@@ -2,6 +2,14 @@
 
 
 def loop_iterator(number_of_times)
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  x = 0
+  loop do
+  x += 1
+  puts "#{phrase}"
+  if x >= number_of_times
+    break
+  end
 end
 
 
